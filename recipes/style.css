@@ -1,0 +1,26 @@
+.encabezado, .title , #messi{
+	text-align:start;
+	color:blue;
+	background-color:grey;
+	padding:5px;
+	border:3px solid blue;
+	}
+.list {
+color:blue;
+}
+
+* {
+font-family:" times new roman"
+color: white;
+}
+#p {
+background-color: pink;
+}
+
+.ing {
+background-color: orange;
+}
+body {
+background-color: #121826;
+color:white;
+}
