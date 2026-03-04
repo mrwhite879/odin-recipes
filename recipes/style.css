@@ -1,12 +1,14 @@
-.encabezado, .title , #messi{
+.encabezado, .title , #messi {
+	display: block
 	text-align:start;
-	color:blue;
+	color:white;
 	background-color:grey;
 	padding:5px;
 	border:3px solid blue;
 	}
-.list {
-color:blue;
+.encabezado {
+width:120px;
+height:120px;
 }
 
 * {
@@ -23,4 +25,30 @@ background-color: orange;
 body {
 background-color: #121826;
 color:white;
+}
+
+.box-one {
+box-sizing:border-box;
+height:19px;
+width:450px;
+background-color:red;
+padding:12px;
+border:2px solid white;
+
+margin:45px;
+}
+.box-two{
+height:1px;
+width:300px;
+background-color:red;
+padding:7px;
+border:2px solid white;
+
+margin:50px;
+}
+.box-three {
+box-sizing:border-box;
+border: 5px solid white;
+padding:2px;
+margin:25px;
 }
